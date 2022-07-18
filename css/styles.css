@@ -32,10 +32,25 @@ body {
 .list {
 list-style: none;
 text-decoration: none;
+padding: 0;
+margin: 0;
 }
 
-/* Header*/
-.header {
+.container {
+    width: 1200px;
+    padding: 15px 15px;
+    margin-left: auto;
+    margin-Right: auto;
+}
+/* Page-Header*/
+.page-header {
+   /*
+    height: 80px;
+    width: 1600;
+    padding: 15px 15px;
+    margin-left: auto;
+    margin-Right: auto;
+    */
     
 }
 
@@ -96,6 +111,9 @@ span.logo-black {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+
 }
 
 /*button*/
@@ -110,8 +128,13 @@ span.logo-black {
     line-height: 1.88;
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 200px;
+    border: 1px solid transparent;
 }
 
 .hero-button:hover,
@@ -144,6 +167,7 @@ span.logo-black {
 }
 .section-title {
     color: var(--title-text-color);
+    margin-top: 0;
 }
 
 .benefits .section-title {
@@ -155,13 +179,33 @@ span.logo-black {
 .benefits .items {
     font-size: 14px;
     line-height: 1.71;
+
+    margin: 0;
+}
+
+.benefits.container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.benefits .section-title {
+    margin-bottom: 10px;
+}
+
+.we-doing {
+    padding-bottom: 94px;
 }
 
 .we-doing .section-title{
     font-size: 36px;
     line-height: 1.67;
     text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 50px;
 }
+
+
 
 .section-works .section-title {
     font-size: 18px;
@@ -179,11 +223,10 @@ span.logo-black {
 /* section team*/
 .section-team {
     background-color: var(--secondary-background-color);
-}
 
-/*section-peopl*/
-.section-peopl {
-    background-color: var(--primary-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 
 .section-team>.section-title {
@@ -191,29 +234,55 @@ span.logo-black {
     font-size: 36px;
     line-height: 1.67;
     text-align: center;
+
+    margin-bottom: 50px;
 }
+
+.section-team .items {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*section-peopl*/
+.section-peopl {
+    background-color: var(--primary-background-color);
+}
+
+
 
 .section-peopl .section-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-}
-.section-team .items {
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
 
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
+
 
 /* footer */
 .footer {
     background-color: var(--footer-hero-background-color);
     color: var(--primary-background-color);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 span.logo-white {
     color:var(--primary-background-color);
+}
+
+.footer>.logo {
+    margin-bottom: 20px;
+}
+
+.footer .list {
 }
 
 .footer-map {
@@ -222,6 +291,8 @@ span.logo-white {
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+
+    margin-bottom: 9px;
 }
 
 .footer-link{
@@ -231,6 +302,11 @@ span.logo-white {
     line-height: 1.71;
     font-style: normal;
 }
+
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 
 .footer-map:hover,
 .footer-link:hover,
