@@ -38,10 +38,12 @@ margin: 0;
 
 .container {
     width: 1200px;
-    padding: 15px 15px;
+    padding: 0 15px;
     margin-left: auto;
     margin-Right: auto;
 }
+
+
 /*----------------- Page-Header----------------------*/
 .page-header {
     border: 1px solid #ECECEC
@@ -130,6 +132,9 @@ span.logo-black {
     background-color:var(--footer-hero-background-color) ;
     text-align: center;
     letter-spacing: 0.06em;
+   
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -138,8 +143,11 @@ span.logo-black {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    text-align: center;
+    
     margin-top: 0;
     margin-bottom: 30px;
+    
 
 }
 
@@ -245,7 +253,7 @@ span.logo-black {
 
 .we-doing .section-title{
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.17;
     text-align: center;
 
     margin-top: 0;
@@ -272,7 +280,7 @@ margin-left: 30px;
 .section-team .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.17;
     text-align: center;
 
     margin-bottom: 50px;
@@ -282,8 +290,6 @@ margin-left: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-
-    margin-bottom: 30px;
     margin-top: 0;
 }
 
@@ -301,7 +307,10 @@ margin-left: 30px;
     margin-left: 30px;
 }
 
-
+.section-people-checklist{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .section-peopl .section-title {
     font-weight: 500;
@@ -309,29 +318,33 @@ margin-left: 30px;
     line-height: 1.19;
     text-align: center;
 
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 /*-----------------section-works----------------*/
 
+
 .section-works .section-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
     margin-bottom: 4px;
-    padding: 0 24px;
+    
 }
 
-.section-works .text {
+.section-works-checklist .text {
     color: var(--primary-text-color);
 
     font-size: 16px;
     line-height: 1.88;
-    margin-bottom: 20px;
-    padding: 0 24px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.section-works .clients {
+    padding:20px 24px;
+}
+
 
 .section-works-button{
     display: flex;
@@ -339,7 +352,8 @@ margin-left: 30px;
     margin-bottom: 50px;
 }
 
-.section-works-button+.section-works-button{
+
+.section-works-item+.section-works-item{
     margin-left: 8px;
 }
 
@@ -369,11 +383,8 @@ margin-left: 30px;
 .footer {
     background-color: var(--footer-hero-background-color);
     color: var(--primary-background-color);
-}
-
-.footer .container {
-        padding-top: 60px;
-        padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 span.logo-white {
