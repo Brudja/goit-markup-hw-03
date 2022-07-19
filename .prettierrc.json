@@ -1,13 +1,22 @@
 {
-  "printWidth": 100,
-  "tabWidth": 2,
-  "useTabs": false,
-  "semi": false,
-  "singleQuote": true,
-  "trailingComma": "all",
+  "arrowParens": "always",
   "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
   "jsxBracketSameLine": false,
-  "arrowParens": "avoid",
-  "proseWrap": "always"
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/admin/Documents/GitHub/bc-29-on/css/styles.css",
+  "parser": "css"
 
 }

@@ -162,12 +162,22 @@ span.logo-black {
 }
 /* Секции*/
 /* h2, h3 */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .section .text{
     color: var(--primary-text-color);
 }
 .section-title {
     color: var(--title-text-color);
     margin-top: 0;
+}
+
+.benefits{
+    padding-bottom: 0;
 }
 
 .benefits .section-title {
@@ -183,18 +193,11 @@ span.logo-black {
     margin: 0;
 }
 
-.benefits.container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .benefits .section-title {
     margin-bottom: 10px;
 }
 
-.we-doing {
-    padding-bottom: 94px;
-}
 
 .we-doing .section-title{
     font-size: 36px;
@@ -223,13 +226,13 @@ span.logo-black {
 /* section team*/
 .section-team {
     background-color: var(--secondary-background-color);
-
-    padding-top: 94px;
-    padding-bottom: 94px;
-
 }
 
-.section-team>.section-title {
+.section-team .section {
+    padding-bottom: 0;
+}
+
+.section-team .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.67;
@@ -269,9 +272,11 @@ span.logo-black {
 .footer {
     background-color: var(--footer-hero-background-color);
     color: var(--primary-background-color);
+}
 
-    padding-top: 60px;
-    padding-bottom: 60px;
+.footer .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 span.logo-white {
