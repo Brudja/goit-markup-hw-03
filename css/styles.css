@@ -43,17 +43,28 @@ margin: 0;
     margin-Right: auto;
 }
 
+.container-hero{
+    width: 1600px;
+    margin-left: auto;
+    margin-Right: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /*----------------- Page-Header----------------------*/
 .page-header {
-    border: 1px solid #ECECEC
-    /*
-    height: 80px;
-    width: 1600;
-    padding: 15px 15px;
-    margin-left: auto;
-    margin-Right: auto;
-    */
+    border-bottom: 1px solid #ECECEC
 }
 
 .logo {
@@ -145,9 +156,10 @@ span.logo-black {
     text-transform: uppercase;
     text-align: center;
     
-    margin-top: 0;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px; 
+    max-width: 696px;
+    margin-right: 452px;
+    margin-left: 452px;
 
 }
 
@@ -291,6 +303,7 @@ margin-left: 30px;
     line-height: 1.19;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .section-team-items{
