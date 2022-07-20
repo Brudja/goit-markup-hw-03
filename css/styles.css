@@ -140,26 +140,25 @@ span.logo-black {
 
 /* ------------------- Hero---------------------- */
 .hero {
-    background-color:var(--footer-hero-background-color) ;
+    background-color: var(--footer-hero-background-color);
     text-align: center;
     letter-spacing: 0.06em;
-   
+    
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
 .hero-title {
-    color:var(--secondary-text-color) ;
+    color: var(--secondary-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
     text-align: center;
-    
-    margin-bottom: 30px; 
+    letter-spacing: 0.06em;
+
     max-width: 696px;
-    margin-right: 452px;
-    margin-left: 452px;
+    margin: 0 auto 30px;
 
 }
 
